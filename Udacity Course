@@ -68,3 +68,10 @@ for name, win_num in win_count_dict.items():
       #  most_win_director = most_win_director[name]
 
 print("most_win_director = {}".format(most_win_director))
+
+#lambda
+
+cities = ["New York City", "Los Angeles", "Chicago", "Mountain View", "Denver", "Boston"]
+
+short_cities = list(filter(lambda x: len(x) < 10, cities))
+print(short_cities)
